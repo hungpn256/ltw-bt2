@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Học sinh trường học</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dcbf3e0fa6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+    <nav class=" navbar navbar-expand-lg bg-red sticky-top">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">PTIT</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+                <i class="fas fa-align-justify text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="px-3">
+                        <a class="nav-link text-white" href="#">Trang chủ</a>
+                    </li>
+                    <li class="dropdown px-3">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="drop-down-1" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Giới thiệu
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="drop-down-1">
+                            <a class="dropdown-item" href="#">Thông điệp của giám đốc học viện</a>
+                            <a class="dropdown-item" href="#">Nguồn nhân lực</a>
+                            <a class="dropdown-item" href="#">Cơ sở vật chất Học viện</a>
+                        </div>
+                    </li>
+                    <li class="px-3">
+                        <a class="nav-link text-white" href="#">Thư viện</a>
+                    </li>
+                    <li class="dropdown px-3">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="drop-down-2" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Ngành học
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby=" drop-down-2">
+                            <a class="dropdown-item" href="#">Công nghệ thông tin</a>
+                            <a class="dropdown-item" href="#">Đa phương tiện</a>
+                            <a class="dropdown-item" href="#">An toàn thông tin</a>
+                            <a class="dropdown-item" href="#">Điện tử viễn thông</a>
+                            <a class="dropdown-item" href="#">Marketing</a>
+                            <a class="dropdown-item" href="#">Kế toán</a>
+                        </div>
+                    </li>
+                    <li class="px-3">
+                        <a class="nav-link text-white" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="p-2">
+                <i class="fas fa-search text-white"></i>
+            </div>
+        </div>
+    </nav>
+    <div id="carousel-head" class="carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-head" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carousel-head" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://portal.ptit.edu.vn/wp-content/uploads/2018/12/IMG_2143.png" class="d-block w-100"
+                    alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://portal.ptit.edu.vn/wp-content/uploads/2020/09/119778765_1480191512166754_1067154317866188844_n.jpg"
+                    class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-head" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-head" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+    <div class="bg-yellow p-5">
+        <div class="container pt-3">
+            <h2 class="text-center section__title">Tin tức</h2>
+            <p class="text-center section__sub-title">
+                Tin tức mới nhất từ PTIT
+            </p>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-xl-6 mt-3 img-wrapper">
+                    <img src="https://www.stanford.edu/wp-content/uploads/2021/10/NYC-class-2a_box.jpg" alt="">
+                    <div class="text-in-image">
+                        <div class="news__card__title text-white">CÁC VẤN ĐỀ ĐẠI HỌC</div>
+                        <div class="text-white news__card__sub-title">PTIT cung cấp các khóa học đại học kết hợp mới lạ
+                            cho học sinh trung học để mở rộng con đường lên giáo dục cao hơn</div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-xl-3 mt-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://www.stanford.edu/wp-content/uploads/2021/10/COP-qA1-earth.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="news__card__title">KHOA HỌC CÔNG NGHỆ</h5>
+                            <p class="card-text news__card__sub-title">Các học giả PTIT thảo luận về hy vọng cho các
+                                cuộc đàm phán về khí hậu</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-xl-3 mt-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://www.stanford.edu/wp-content/uploads/2021/10/okcomputer.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="news__card__title">CHĂM SÓC SỨC KHỎE</h5>
+                            <p class="card-text news__card__sub-title">OK, máy tính: Xây dựng niềm tin để làm cho việc
+                                học máy hiệu quả hơn</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-xl-3 mt-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://www.stanford.edu/wp-content/uploads/2021/10/dirty_companies.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="news__card__title">KHOA HỌC XÃ HỘI</h5>
+                            <p class="news__card__sub-title">Khoa học: Tại sao thoái vốn không ảnh hưởng đến
+                                các công ty “bẩn”</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-xl-3 mt-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://www.stanford.edu/wp-content/uploads/2021/10/Scope-World-Bank.jpeg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="news__card__title">THUỐC</h5>
+                            <p class="card-text news__card__sub-title">Thuốc: Các chiến lược tiếp thị có thể giúp tăng
+                                tỷ lệ tiêm chủng không?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 mt-3 d-none d-xl-block img-wrapper">
+                    <img src="https://www.stanford.edu/wp-content/uploads/2021/10/20211011Guido_Imbens_N6A6517.jpg"
+                        alt="">
+                    <div class="text-in-image">
+                        <div class="news__card__title text-white">GIẢI THƯỞNG</div>
+                        <div class="text-white news__card__sub-title">Phạm Năng H đoạt giải Nobel về khoa học kinh tế
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-danger px-5 mt-4">Xem thêm</button>
+        </div>
+    </div>
+    <div class="p-5 bg-red">
+        <div class="container pt-3 section">
+            <h2 class="text-center text-white section__title">Sự kiện</h2>
+            <p class="text-center text-white section__sub-title">
+                Điều gì đang xảy ra trong khuôn viên trường
+            </p>
+            <div class="row">
+                <div class="col-xs-12 col-md-4 col-xl-3 mt-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://events.stanford.edu/events/931/93155/92588-1.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="news__card__title">MÀN BIỂU DIỄN</h5>
+                            <p class="card-text news__card__sub-title news__card__sub-title--thin">Phiên cách ly: Cải
+                                tiến mạng điện âm phân tán</p>
+                            <p class="card-text news__card__sub-title news__card__sub-title--thin">13:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-xl-3 mt-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://events.stanford.edu/events/929/92951/92869-1.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="news__card__title news__card__sub-title--thin">BÀI HỌC</h5>
+                            <p class="card-text news__card__sub-title news__card__sub-title--thin">Reimagining Work Post
+                                COVID | Ai chịu trách nhiệm ?: Doanh nghiệp, Chính phủ và Tổ chức từ thiện</p>
+                            <p class="card-text news__card__sub-title news__card__sub-title--thin">6:30</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-xl-3 mt-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://events.stanford.edu/events/931/93116/93116-2.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="news__card__title news__card__sub-title--thin">HỘI THẢO</h5>
+                            <p class="card-text news__card__sub-title news__card__sub-title--thin">Bệnh tiểu đường như
+                                bệnh tật và phép ẩn dụ: Những câu chuyện từ Công nghệ Cơ thể</p>
+                            <p class="card-text news__card__sub-title news__card__sub-title--thin">10:00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4 col-xl-3 mt-3">
+                    <div class="card" style="width: 100%;">
+                        <img src="https://events.stanford.edu/events/925/92585/92585-1.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="news__card__title news__card__sub-title--thin">HỘI THẢO</h5>
+                            <p class="card-text news__card__sub-title news__card__sub-title--thin">Dòng loa với Penny
+                                Goldberg: Cuộc trò chuyện về sự gián đoạn chuỗi cung ứng từ COVID-19</p>
+                            <p class="card-text news__card__sub-title news__card__sub-title--thin">12 giờ trưa</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="quote">
+        <img class="w-100" src="https://www.stanford.edu/wp-content/uploads/2020/04/Heather_Hadlock_3000x1200_website-v2.jpg">
+        <div class="d-absolute">
+            <div class="quote__wrapper d-flex flex-column align-items-center w-50">
+                <img src="https://www.stanford.edu/wp-content/uploads/2020/04/Heather_Hadlock_480x480_website-v2-240x240.jpg">
+                <div class="quote__text text-white text-center">“ Ở đây, tại PTIT, mọi người thường xuyên trò chuyện với nhau. Trong thời gian là giám đốc của chương trình Nghiên cứu về Nữ quyền, 
+                    Giới tính và Tình dục, tôi đã thấy các giảng viên và sinh viên trong các ngành 
+                    khác nhau tương tác vô cùng với tài liệu của họ và với nhau như thế nào. Mọi người ở đây rất hào phóng về mặt trí tuệ ”.
+                </div>
+                <div class="quote__author text-white mt-4">Heather Hadlock</div>
+                <div class="quote__position text-white"><i>Phó giáo sư âm nhạc</i></div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-yellow p-5">
+        <div class="container pt-3 section">
+            <h2 class="text-center section__title">Nghiên cứu</h2>
+            <p class="text-center section__sub-title">
+                Một nền văn hóa hợp tác thúc đẩy những khám phá sáng tạo quan trọng đối với thế giới, sức khỏe và đời
+                sống trí tuệ của chúng ta
+            </p>
+            <hr />
+            <div class="row">
+                <div class="col-xs-12 col-md-4">
+                    <h2 class="text-center section__title section__title--small">18 Viện</h2>
+                    <p class="text-center section__sub-title section__sub-title--small">
+                        vượt qua ranh giới liên ngành
+                    </p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h2 class="text-center section__title section__title--small">20 thư viện</h2>
+                    <p class="text-center section__sub-title section__sub-title--small">
+                        nắm giữ hơn 9,5 triệu tập
+                    </p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <h2 class="text-center section__title section__title--small">1,93 tỷ đô la</h2>
+                    <p class="text-center section__sub-title section__sub-title--small">
+                        ngân sách nghiên cứu được tài trợ
+                    </p>
+                </div>
+
+            </div>
+            <hr />
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe width="100%" style="min-height: 100%; aspect-ratio: 16/9;"
+                        src="https://www.youtube.com/embed/b2puVyxHcRA" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6 d-flex flex-column justify-content-center">
+                    <h2 class="section__title section__title--small">Viện Nghiên Cứu và Đào Tạo Tiêu Hóa, Gan Mật</h2>
+                    <p class="section__sub-title section__sub-title--small">
+                        Viện Nghiên cứu & Đào tạo Tiêu hóa, Gan mật, được thành lập tháng 3/2018, là tổ chức khoa học
+                        công nghệ nghiên cứu và đào tạo chuyên sâu về các vấn đề tiêu hóa và gan mật.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-danger px-5 mt-4">Xem thêm</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-xs-12 col-md-3 col-lg-2">
+                    <div class="news__card__title news__card__title--bold">TRƯỜNG HỌC</div>
+
+                    <div class="news__card__sub-title-thin py-1 mt-2">
+                        Kinh doanh
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Khoa học về Trái đất, Năng lượng & Môi trường
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Giáo dục
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Kỹ thuật
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Khoa học và nhân văn
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Pháp luật
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Thuốc
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3 col-lg-2">
+                    <div class="news__card__title news__card__title--bold">CÁC PHÒNG BAN</div>
+
+                    <div class="news__card__sub-title-thin py-1">
+                        Khoa A-Z
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Các chương trình liên ngành
+                    </div>
+                    <div class="news__card__title news__card__title--bold">NGHIÊN CỨU</div>
+
+                    <div class="news__card__sub-title-thin py-1">
+                        Trung tâm nghiên cứu A-Z
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Nghiên cứu liên ngành
+                    </div>
+
+                </div>
+                <div class="col-xs-12 col-md-3 col-lg-2">
+                    <div class="news__card__title news__card__title--bold">CHĂM SÓC SỨC KHOẺ</div>
+
+                    <div class="news__card__sub-title-thin py-1">
+                        Chăm sóc sức khoẻ PTIT
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Chăm sóc trẻ em PTIT
+                    </div>
+                    <div class="news__card__title news__card__title--bold">HỌC TRỰC TUYẾN</div>
+
+                    <div class="news__card__sub-title-thin py-1">
+                        PTIT trực tuyến
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3 col-lg-2">
+                    <div class="news__card__title news__card__title--bold">VỀ CHÚNG TÔI</div>
+
+                    <div class="news__card__sub-title-thin py-1">
+                        Sự thật
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Môn lịch sử
+                    </div>
+                    <div class="news__card__title news__card__title--bold">NHẬN VÀO PTIT</div>
+
+                    <div class="news__card__sub-title-thin py-1">
+                        Đại học
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Tốt ngiệp
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Viện tài chính
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3 col-lg-2">
+                    <div class="news__card__title news__card__title--bold">TÀI NGUYÊN</div>
+
+                    <div class="news__card__sub-title-thin py-1">
+                        Khoa A-Z
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Bản đồ khuôn viên trường
+                    </div>
+                
+                    <div class="news__card__sub-title-thin py-1">
+                        Kết nối cộng đồng
+                    </div>
+                    <div class="news__card__sub-title-thin py-1">
+                        Hồ sơ
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3 col-lg-2">
+                    <button type="button" class="btn btn-outline-primary w-100 mb-2">Đang áp dụng</button>
+                    <button type="button" class="btn btn-outline-secondary w-100 mb-2">Tham quan</button>
+                    <button type="button" class="btn btn-outline-success w-100 mb-2">Cho</button>
+                    <button type="button" class="btn btn-outline-danger w-100 mb-2">Nghề ngiệp</button>
+                    <button type="button" class="btn btn-outline-warning w-100 mb-2">Tiếp xúc</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
